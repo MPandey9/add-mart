@@ -75,7 +75,7 @@ h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #fff;
+  background: #045d30;
   border-bottom: 1px solid #eee;
   font-size: 14px;
   padding: 0;
@@ -90,7 +90,7 @@ h6 {
 #topbar .contact-info i a,
 #topbar .contact-info i span {
   padding-left: 5px;
-  color: #444;
+  color: #fff;
 }
 
 #topbar .contact-info i a {
@@ -99,11 +99,11 @@ h6 {
 }
 
 #topbar .contact-info i a:hover {
-  color: #045d30;
+  color: #79fcbb;
 }
 
 #topbar .social-links a {
-  color: #555;
+  color: #fff;
   padding: 0 15px;
   display: inline-block;
   line-height: 1px;
@@ -111,7 +111,7 @@ h6 {
 }
 
 #topbar .social-links a:hover {
-  color: #045d30;
+  color: #79fcbb;
 }
 
 #topbar .social-links a:first-child {
