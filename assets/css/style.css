@@ -790,7 +790,7 @@ section {
 }
 /* Products Section
 --------------------------------*/
-#products {
+/*#products {
   padding: 40px 0;
 }
 
@@ -863,6 +863,37 @@ section {
     margin-left: 0;
     text-align: center;
   }
+}*/
+#products {
+  padding: 30px 0;
+}
+
+#products img{
+  max-width: 100%;
+  opacity: 0.5;
+  transition: 0.3s;
+  padding: 15px 0;
+}
+
+#products img:hover {
+  opacity: 1;
+}
+
+#products .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+#products .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #045d30;
+}
+
+#products .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #045d30;
 }
 /*Products detsils hover
 ----------------------------*/
@@ -906,6 +937,12 @@ section {
 --------------------------------*/
 #contact {
   padding: 30px 0;
+}
+
+#subject{
+  width: 100%;
+  height: 48px;
+  border: 1px solid #ced4da;
 }
 
 #contact .contact-info {
@@ -1070,6 +1107,35 @@ section {
   100% {
     transform: rotate(360deg);
   }
+}
+
+.state{
+  width: 48%;
+  margin: 0 5px 5px 5px;
+  border-radius: 5px;
+  border: 2px solid #045d30;
+  padding: 5px;
+  transition: 600ms;
+}
+.state .bi{
+  font-size: 15px;
+  font-weight: 600;
+  color: #045d30;
+}
+.state h5{
+ color: #045d30;
+ font-weight: 600;
+ margin: 5px;
+}
+.state p{
+  padding-left: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0px;
+}
+.state:hover{
+  box-shadow: 0 0 10px 1px #045d30;
+  transition: 600ms;
 }
 
 /*--------------------------------------------------------------
