@@ -200,85 +200,31 @@
       }
     }
   });
-
   /**
-   * Products Slider
-   */
-  new Swiper('.products-slider', {
-    speed: 400,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    slidesPerView: 'auto',
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    },
-    breakpoints: {
-      320: {
-        slidesPerView: 2,
-        spaceBetween: 20
-      },
-      480: {
-        slidesPerView: 3,
-        spaceBetween: 20
-      },
-      640: {
-        slidesPerView: 4,
-        spaceBetween: 20
-      },
-      992: {
-        slidesPerView: 6,
-        spaceBetween: 20
-      }
-    }
-  });
-
-  /**
-   * Porfolio isotope and filter
+   * Products isotope and filter
    */
   window.addEventListener('load', () => {
-    let portfolioContainer = select('.portfolio-container');
-    if (portfolioContainer) {
-      let portfolioIsotope = new Isotope(portfolioContainer, {
-        itemSelector: '.portfolio-item',
+    let productsContainer = select('.products-container');
+    if (productsContainer) {
+      let productsIsotope = new Isotope(productsContainer, {
+        itemSelector: '.products-item',
         layoutMode: 'fitRows'
       });
-
-      let portfolioFilters = select('#portfolio-flters li', true);
-
-      on('click', '#portfolio-flters li', function(e) {
-        e.preventDefault();
-        portfolioFilters.forEach(function(el) {
-          el.classList.remove('filter-active');
-        });
-        this.classList.add('filter-active');
-
-        portfolioIsotope.arrange({
-          filter: this.getAttribute('data-filter')
-        });
-        portfolioIsotope.on('arrangeComplete', function() {
-          AOS.refresh()
-        });
-      }, true);
     }
 
   });
 
   /**
-   * Initiate portfolio lightbox 
+   * Initiate products lightbox 
    */
-  const portfolioLightbox = GLightbox({
-    selector: '.portfolio-lightbox'
+  const productsLightbox = GLightbox({
+    selector: '.products-lightbox'
   });
 
   /**
-   * Portfolio details slider
+   * Products details slider
    */
-  new Swiper('.portfolio-details-slider', {
+  new Swiper('.products-details-slider', {
     speed: 400,
     loop: true,
     autoplay: {
