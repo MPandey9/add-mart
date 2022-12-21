@@ -475,7 +475,7 @@ h6 {
 
 #hero .hero-slider::before {
   content: "";
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.4);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -625,6 +625,7 @@ section {
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
+  text-align: justify !important;
 }
 
 #about .content p {
@@ -651,10 +652,6 @@ section {
 }
 /* CSR Section
 --------------------------------*/
-#csr {
-  padding: 60px 0 30px 0;
-}
-
 #csr .about-img {
   overflow: hidden;
 }
@@ -917,41 +914,6 @@ section {
 }
 /*Products detsils hover
 ----------------------------*/
-
-
-/* Clients Section
---------------------------------*/
-#clients {
-  padding: 30px 0;
-}
-
-#clients img {
-  max-width: 100%;
-  opacity: 0.5;
-  transition: 0.3s;
-  padding: 15px 0;
-}
-
-#clients img:hover {
-  opacity: 1;
-}
-
-#clients .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-
-#clients .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #fff;
-  opacity: 1;
-  border: 1px solid #045d30;
-}
-
-#clients .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #045d30;
-}
 
 /* Contact Section
 --------------------------------*/
