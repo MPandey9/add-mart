@@ -152,6 +152,43 @@
     }
   });
   /**
+   * Porfolio isotope and filter
+   */
+  window.addEventListener('load', () => {
+    let gallaryContainer = select('.gallary-container');
+    if (gallaryContainer) {
+      let gallaryIsotope = new Isotope(gallaryContainer, {
+        itemSelector: '.gallary-item',
+        layoutMode: 'fitRows'
+      });
+
+      let gallaryFilters = select('#gallary-flters li', true);
+
+      on('click', '#gallary-flters li', function(e) {
+        e.preventDefault();
+        gallaryFilters.forEach(function(el) {
+          el.classList.remove('filter-active');
+        });
+        this.classList.add('filter-active');
+
+        gallaryIsotope.arrange({
+          filter: this.getAttribute('data-filter')
+        });
+        gallaryIsotope.on('arrangeComplete', function() {
+          AOS.refresh()
+        });
+      }, true);
+    }
+
+  });
+
+  /**
+   * Initiate gallary lightbox 
+   */
+  const gallaryLightbox = GLightbox({
+    selector: '.gallary-lightbox'
+  });
+  /**
    * Products isotope and filter
    */
   window.addEventListener('load', () => {
@@ -164,14 +201,6 @@
     }
 
   });
-
-  /**
-   * Initiate products lightbox 
-   */
-  const productsLightbox = GLightbox({
-    selector: '.products-lightbox'
-  });
-
   /**
    * Products details slider
    */
