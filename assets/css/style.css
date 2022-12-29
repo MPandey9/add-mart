@@ -593,7 +593,7 @@ section {
   padding: 30px 0;
 }
 
-#gallary #gallary-flters {
+#gallary #gallary-filters {
   padding: 0;
   margin: 0 auto 25px auto;
   list-style: none;
@@ -601,7 +601,7 @@ section {
   border-radius: 50px;
 }
 
-#gallary #gallary-flters li {
+#gallary #gallary-filters li {
   cursor: pointer;
   display: inline-block;
   padding: 10px 18px 12px 18px;
@@ -615,13 +615,13 @@ section {
   border-radius: 4px;
 }
 
-#gallary #gallary-flters li:hover,
-#gallary #gallary-flters li.filter-active {
+#gallary #gallary-filters li:hover,
+#gallary #gallary-filters li.filter-active {
   color: #fff;
   background: #045d30;
 }
 
-#gallary #gallary-flters li:last-child {
+#gallary #gallary-filters li:last-child {
   margin-right: 0;
 }
 
@@ -636,11 +636,10 @@ section {
   transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-#gallary .gallary-item .gallary-info .preview-link:hover{
-  color: #fff;
+#gallary .gallary-item a:hover img {
+  top: -10px;
 }
-
-#gallary .gallary-item:hover img {
+#gallary .gallary-item a:hover video {
   top: -10px;
 }
 /* About Section

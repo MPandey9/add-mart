@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Add-Mart</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.png" rel="icon">
+  <link href="assets/img/logo.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">contact@example.com</a></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i>
+      </div>
+      <div class="social-links d-none d-md-flex align-items-center">
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      </div>
+    </div>
+  </section><!-- End Top Bar-->
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-between">
+
+      <div id="logo">
+        <!-- Uncomment below if you prefer to use an image logo -->
+         <a href="index.html"><img src="assets/img/logo.png" alt="" style="width: 75%;"></a>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#gallary">User Gallary</a></li>
+          <li><a class="nav-link scrollto" href="#products">Our Products</a></li>
+          <li><a class="nav-link scrollto " href="#csr">CSR</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= hero Section ======= -->
+  <section id="hero">
+
+    <div class="hero-content" data-aos="fade-up">
+      <h2>THE  <span>OLIVE LITE &amp; OLIVE</span><br>PREMIUM</h2>
+      <div>
+        <a href="#about" class="btn-about scrollto">About Us</a>
+        <a href="#contact" class="btn-contact scrollto">Contact Us</a>
+      </div>
+    </div>
+
+    <div class="hero-slider swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" style="background-image: url('assets/img/metroinside.jpg');"></div>
+      </div>
+    </div>
+
+  </section><!-- End Hero Section -->
+
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="about">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>About Us</h2>
+        </div>
+        <div class="row">
+          <!-- <div class="col-lg-6 about-img">
+            <img src="assets/img/about.png" alt="">
+          </div> -->
+
+          <div class="col-lg-12 content">
+            <h3>Established in the year 2012, Addmart.com has grown and made a prominent place in the printing & advertising industry. "THE OLIVE LITE” & “OLIVE PREMIUM” are the well known and accepted brands of Addmart.com in the market. Company’s vision is to be at the top for meeting all printing & advertising needs. Headquartered in the capital of India, our tremendous growth in the last 10 years has imparted us with confidence, that we have spread our wings globally and the perfect example for that we have an office in Kathmandu and also have branches in Mumbai and Bangalore.
+              <br />
+              <br />
+              Addmart.com ensures that the quality of our brand is maintained in order to live up to the expectations of the most valuable assets that is our clients. We have always met all the Printing & Advertising needs of our clients in the regions through various sales channels adding up to our rich experience. We have been spearheading in serving some of the top corporate establishments and providing them with quality products at reasonable prices. We greatly value the words of our honourable Prime Minister:- ‘Sabka Sath Sabka Vikas’  and we are working along with the same line for our people, our clients and for our sales partners. OLIVE has over 7 years of experience in meeting customer requirements. We work through various sales channels and have partners, distributors across India in the advertising industry with the aim to achieve 100% customer satisfaction. We provide the best quality products within the budget of our clients.</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 content">
+            <h2 style="color: #0c2e8a;font-size: 27px;">Our Mission</h2>
+            <h3>Our mission is to serve our clients with the highest quality products, exceptional services within specified time and at a competitive price. We will strive to deliver individualized solutions to all our client's printing & advertising needs and add value to our client’s businesses. Our Team is focused on providing great service and forming long-lasting relationships with our clients. We believe in the great saying that “ACTIONS SPEAKS LOUDER THAN WORDS”, so following these lines we take all necessary actions against the suggestions given by our clients and try to fulfil them.</h3>
+
+            <ul>
+              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+              <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+    <!-- ======= User Gallary Section ======= -->
+    <section id="gallary" class="gallary">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>User Gallary</h2>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="gallary-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-img">Images</li>
+              <li data-filter=".filter-video">Video</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row gallary-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-12 gallary-item filter-img">
+            <a href="assets/img/gallary/p6.jpeg" data-gallery="gallaryGallery" class="gallary-lightbox">
+              <img src="assets/img/gallary/p6.jpeg" class="img-fluid" alt="">
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 gallary-item filter-img">
+            <a href="assets/img/gallary/p9.jpeg" data-gallery="gallaryGallery" class="gallary-lightbox">
+              <img src="assets/img/gallary/p9.jpeg" class="img-fluid" alt="">
+            </a>
+          </div>
+          
+
+          <div class="col-lg-4 col-md-6 gallary-item filter-img">
+            <a href="assets/img/gallary/p10.jpeg" data-gallery="gallaryGallery" class="gallary-lightbox">
+              <img src="assets/img/gallary/p10.jpeg" class="img-fluid" alt="">
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 gallary-item filter-img">
+            <a href="assets/img/gallary/p11.jpeg" data-gallery="gallaryGallery" class="gallary-lightbox">
+              <img src="assets/img/gallary/p11.jpeg" class="img-fluid" alt="">
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 gallary-item filter-img">
+            <a href="assets/img/gallary/p12.jpeg" data-gallery="gallaryGallery" class="gallary-lightbox">
+              <img src="assets/img/gallary/p12.jpeg" class="img-fluid" alt="">
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 gallary-item filter-img">
+            <a href="assets/img/gallary/p13.jpeg" data-gallery="gallaryGallery" class="gallary-lightbox">
+              <img src="assets/img/gallary/p13.jpeg" class="img-fluid" alt="">
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 gallary-item filter-img">
+            <a href="assets/img/gallary/p14.jpeg" data-gallery="gallaryGallery" class="gallary-lightbox">
+              <img src="assets/img/gallary/p14.jpeg" class="img-fluid" alt="">
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 gallary-item filter-img">
+            <a href="assets/img/gallary/p15.jpeg" data-gallery="gallaryGallery" class="gallary-lightbox">
+              <img src="assets/img/gallary/p15.jpeg" class="img-fluid" alt="">
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 gallary-item filter-img">
+            <a href="assets/img/gallary/p16.jpeg" data-gallery="gallaryGallery" class="gallary-lightbox">
+              <img src="assets/img/gallary/p16.jpeg" class="img-fluid" alt="">
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 gallary-item filter-img">
+            <a href="assets/img/gallary/p17.jpeg" data-gallery="gallaryGallery" class="gallary-lightbox">
+              <img src="assets/img/gallary/p17.jpeg" class="img-fluid" alt="">
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 gallary-item filter-img">
+            <a href="assets/img/gallary/p18.jpeg" data-gallery="gallaryGallery" class="gallary-lightbox">
+              <img src="assets/img/gallary/p18.jpeg" class="img-fluid" alt="">
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 gallary-item filter-img">
+            <a href="assets/img/gallary/p22.jpeg" data-gallery="gallaryGallery" class="gallary-lightbox">
+              <img src="assets/img/gallary/p22.jpeg" class="img-fluid" alt="">
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 gallary-item filter-img">
+            <a href="assets/img/gallary/p23.jpeg" data-gallery="gallaryGallery" class="gallary-lightbox">
+              <img src="assets/img/gallary/p23.jpeg" class="img-fluid" alt="">
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 gallary-item filter-img">
+            <a href="assets/img/gallary/p24.jpeg" data-gallery="gallaryGallery" class="gallary-lightbox">
+              <img src="assets/img/gallary/p24.jpeg" class="img-fluid" alt="">
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 gallary-item filter-img">
+            <a href="assets/img/gallary/p27.jpeg" data-gallery="gallaryGallery" class="gallary-lightbox">
+              <img src="assets/img/gallary/p27.jpeg" class="img-fluid" alt="">
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 gallary-item filter-img">
+            <a href="assets/img/gallary/p28.jpeg" data-gallery="gallaryGallery" class="gallary-lightbox">
+              <img src="assets/img/gallary/p28.jpeg" class="img-fluid" alt="">
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 gallary-item filter-img">
+            <a href="assets/img/gallary/p30.jpeg" data-gallery="gallaryGallery" class="gallary-lightbox">
+              <img src="assets/img/gallary/p30.jpeg" class="img-fluid" alt="">
+            </a>
+          </div>
+
+          <!--video-->
+          <div class="col-lg-4 col-md-6 gallary-item filter-video">
+            <a href="assets/img/gallary/p26.mp4" data-gallery="gallaryGallery" class="gallary-lightbox">
+              <video controls><source src="assets/img/gallary/p26.mp4" type="video/mp4" class="img-fluid"></video>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 gallary-item filter-video">
+            <a href="assets/img/gallary/p21.mp4" data-gallery="gallaryGallery" class="gallary-lightbox">
+              <video controls><source src="assets/img/gallary/p21.mp4" type="video/mp4" class="img-fluid"></video>
+            </a>
+          </div>
+
+        <div class="col-lg-4 col-md-6 gallary-item filter-video">
+          <a href="assets/img/gallary/p4.mp4" data-gallery="gallaryGallery" class="gallary-lightbox">
+            <video controls><source src="assets/img/gallary/p4.mp4" type="video/mp4" class="img-fluid"></video>
+          </a>
+        </div>
+        <!--video-->
+
+
+        </div>
+
+      </div>
+    </section><!-- End User Gallary Section -->
+    <!-- ======= Products Section ======= -->
+    <section id="products" class="products">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Our Products</h2>
+          <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+        </div>
+        <div class="row products-container" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-4 col-md-6 products-item filter-img">
+            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+            <div class="products-info">
+              <h4>Product Name</h4>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 products-item filter-video">
+            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+            <div class="products-info">
+              <h4>Product Name</h4>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 products-item filter-img">
+            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+            <div class="products-info">
+              <h4>Product Name</h4>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 products-item filter-card">
+            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+            <div class="products-info">
+              <h4>Product Name</h4>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 products-item filter-video">
+            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+            <div class="products-info">
+              <h4>Product Name</h4>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 products-item filter-img">
+            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+            <div class="products-info">
+              <h4>Product Name</h4>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 products-item filter-card">
+            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+            <div class="products-info">
+              <h4>Product Name</h4>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 products-item filter-card">
+            <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+            <div class="products-info">
+              <h4>Product Name</h4>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 products-item filter-video">
+            <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+            <div class="products-info">
+              <h4>Product Name</h4>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Products Section -->
+    <!--csr section-->
+    <!-- ======= About csr ======= -->
+    <section id="csr">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>CSR</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 about-img">
+            <img src="assets/img/csr1.png" alt="">
+          </div>
+
+          <div class="col-lg-6 content mt-5">
+            <h3>AddMart.com strongly believes that sustainable community development is essential for harmony between the community and the industry. The company endeavors to make a positive contribution to the underprivileged communities by supporting a wide range of socio-economic, educational and health care initiatives. AddMart.com is committed to integrating its business values and operations to meet the expectations of all its stakeholders. As a part of its CSR policy, AddMart.com is associated with Mansa Mata trust.</h3>
+            <h2 style="color: #0c2e8a;font-size: 27px;">Mansa Mata Trust</h2>
+            <h3>Founded in 1910, Mansa Mata Trust has gained more than 105 years of experience with the objective to provide the required facilities for the education of children in remote and slum areas & to empower them for higher studies. The trust holds an exceptional track record of helping children fulfil their dreams.</h3>
+            <h2 style="color: #0c2e8a;font-size: 27px;">Women Empowerment</h2>
+            <h6 style="color: #045d30;">"I raise up my voice — not so I can shout but so that those without a voice can be heard…
+              We cannot succeed when half of us are held back" ----------Malala Yousafzai
+              </h6>
+            <h3>Empowering women in India is very essential to bring gender equality or we can say that gender equality is very much necessary to empower women. Our country is still a developing country and the economic status of our country is in bad shape as it is a male-dominated country. Women empowerment activities can result in a significant outcome. The main goal of these activities is never allowing women to underestimate the female power and always striving for higher achievements. A number of women’s organizations are fighting for gender equality today.</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 content">
+            <h2 style="color: #0c2e8a;font-size: 27px;">Activities for women empowerment</h2>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> Providing education</li>
+              <li><i class="bi bi-check-circle"></i> Providing Healthcare services</li>
+              <li><i class="bi bi-check-circle"></i> Finance services for a small business owned by women</li>
+              <li><i class="bi bi-check-circle"></i> Self-development training</li>
+              <li><i class="bi bi-check-circle"></i> Educate them for various Govt initiatives & schemes like
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mahila E-haat.
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Beti Bachao, Beti Padhao.
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One-Stop Centre Scheme.
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Working Women Hostels.
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Swadhar Greh.
+            </ul>
+          </div>
+          <div class="col-lg-6 about-img">
+            <img src="assets/img/csr2.png" alt="">
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End csr Section -->
+    <!--end csr section-->
+    <!-- ======= Contact Section ======= -->
+    <section id="contact">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Contact Us</h2>
+          <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+        </div>
+
+        <div class="row contact-info">
+
+          <div class="col-md-4">
+            <div class="contact-address">
+              <i class="bi bi-geo-alt"></i>
+              <h3>Head Office</h3>
+              <address>XV 2938, Street No. 3, First Floor, Rajguru Marg, Chuna Mandi
+                Pahar Ganj
+                <br /> New Delhi Pin Code-110055
+              </address>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-phone">
+              <i class="bi bi-phone"></i>
+              <h3>Phone Number</h3>
+              <p><a href="tel:+919643403457">+911123561204</a></p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-email">
+              <i class="bi bi-envelope"></i>
+              <h3>Email</h3>
+              <p><a href="mailto:salesdelhi@add-mart.com">salesdelhi@add-mart.com</a></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <!--form open-->
+        <div class="col-lg-12">
+          <div class="form">
+          <form action="" method="post" role="form" class="php-email-form">
+            <div class="row">
+              <div class="form-group col-md-6">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group col-md-6 mt-3 mt-md-0">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+              </div>
+            </div>
+            <div class="form-group mt-3">
+              <select id="subject" name="subject" required="">
+                <option value="saab">Option 1</option>
+                <option value="fiat">Option 1</option>
+                <option value="audi">Option 1</option>
+              </select>
+            </div>
+            <div class="form-group mt-3">
+              <textarea class="form-control" name="message" rows="7" placeholder="Message" required></textarea>
+            </div>
+
+            <div class="my-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+            </div>
+
+            <div class="text-center mt-3 mb-3"><button type="submit">Send Message</button></div>
+          </form>
+        </div>
+      </div><!--form close-->
+      <!--state section-->
+      <!-- <div class="col-lg-6">
+        <div class="row">
+          <div class="col-lg-6 state">
+            <h5>Mr. Ravi </h5>
+            <p><i class="bi bi-geo-alt"></i>  Uttar Pradesh,Bihar</p>
+            <p><a href=""><i class="bi bi-envelope"></i> abc@example.com</a></p>
+            <p><a href=""><i class="bi bi-phone"></i>  1234567890</a></p>
+          </div>
+          <div class="col-lg-6 state">
+            <h5>Mr. Ravi </h5>
+            <p><i class="bi bi-geo-alt"></i>  Uttar Pradesh,Bihar</p>
+            <p><a href=""><i class="bi bi-envelope"></i> abc@example.com</a></p>
+            <p><a href=""><i class="bi bi-phone"></i>  1234567890</a></p>
+          </div>
+          <div class="col-lg-6 state">
+            <h5>Mr. Ravi </h5>
+            <p><i class="bi bi-geo-alt"></i>  Uttar Pradesh,Bihar</p>
+            <p><a href=""><i class="bi bi-envelope"></i> abc@example.com</a></p>
+            <p><a href=""><i class="bi bi-phone"></i>  1234567890</a></p>
+          </div>
+          <div class="col-lg-6 state">
+            <h5>Mr. Ravi </h5>
+            <p><i class="bi bi-geo-alt"></i>  Uttar Pradesh,Bihar</p>
+            <p><a href=""><i class="bi bi-envelope"></i> abc@example.com</a></p>
+            <p><a href=""><i class="bi bi-phone"></i>  1234567890</a></p>
+          </div>
+          <div class="col-lg-6 state">
+            <h5>Mr. Ravi </h5>
+            <p><i class="bi bi-geo-alt"></i>  Uttar Pradesh,Bihar</p>
+            <p><a href=""><i class="bi bi-envelope"></i> abc@example.com</a></p>
+            <p><a href=""><i class="bi bi-phone"></i>  1234567890</a></p>
+          </div>
+          <div class="col-lg-6 state">
+            <h5>Mr. Ravi </h5>
+            <p><i class="bi bi-geo-alt"></i>  Uttar Pradesh,Bihar</p>
+            <p><a href=""><i class="bi bi-envelope"></i> abc@example.com</a></p>
+            <p><a href=""><i class="bi bi-phone"></i>  1234567890</a></p>
+          </div>
+        </div>
+      </div> -->
+      <!--state section close-->
+        </div>
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <!-- Grid container -->
+    <div class="container">
+      <!-- Section: Links -->
+      <section>
+        <!-- Grid row-->
+        <div class="row text-center d-flex justify-content-center pt-5">
+
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#hero" class="text-white scrollto">Home</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#about" class="text-white scrollto">About Us</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#gallary" class="text-white scrollto">User Gallary</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#products" class="text-white scrollto">Our Products</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#csr" class="text-white scrollto">CSR</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#contact" class="text-white scrollto">Feedback &amp; Contact</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row-->
+      </section>
+      <!-- Section: Links -->
+      <hr/>
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="copyright">
+      &copy; Copyright <strong>add-mart.com</strong>. All Rights Reserved
+    </div>
+    <div class="credits  pb-5">
+      Designed &amp; Developed by ......</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

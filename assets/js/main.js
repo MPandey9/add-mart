@@ -152,19 +152,20 @@
     }
   });
   /**
-   * Porfolio isotope and filter
+   * Gallary isotope and filter
    */
   window.addEventListener('load', () => {
     let gallaryContainer = select('.gallary-container');
     if (gallaryContainer) {
       let gallaryIsotope = new Isotope(gallaryContainer, {
         itemSelector: '.gallary-item',
-        layoutMode: 'fitRows'
+        layoutMode: 'fitRows',
+        filter: '.filter-img'
       });
 
-      let gallaryFilters = select('#gallary-flters li', true);
+      let gallaryFilters = select('#gallary-filters li', true);
 
-      on('click', '#gallary-flters li', function(e) {
+      on('click', '#gallary-filters li', function(e) {
         e.preventDefault();
         gallaryFilters.forEach(function(el) {
           el.classList.remove('filter-active');
