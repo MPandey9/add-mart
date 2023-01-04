@@ -642,6 +642,11 @@ section {
 #gallary .gallary-item a:hover video {
   top: -10px;
 }
+
+.hidden {
+ display: none;
+}
+
 /* About Section
 --------------------------------*/
 #about {
