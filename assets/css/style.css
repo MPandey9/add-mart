@@ -744,6 +744,7 @@ section {
 }
 #products .products-item:hover img {
   top: -30px;
+  transform: scale(4);
 }
 
 #products .products-item:hover .products-info {
@@ -849,6 +850,7 @@ section {
 
 #product .product-item:hover img {
   top: -30px;
+  transform: scale(4);
 }
 
 #product .product-item:hover .product-info {
